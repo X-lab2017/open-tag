@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @Description: 开源机器人标签表
  * @Author: jeecg-boot
- * @Date:   2022-11-01
+ * @Date:   2022-11-25
  * @Version: V1.0
  */
 public interface IDatasourceBotService extends IService<DatasourceBot> {

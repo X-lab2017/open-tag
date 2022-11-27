@@ -16,7 +16,7 @@ import java.io.UnsupportedEncodingException;
 /**
  * @Description: 机器人标签结果
  * @Author: jeecg-boot
- * @Date:   2022-11-01
+ * @Date:   2022-11-25
  * @Version: V1.0
  */
 @ApiModel(value="datasource_bot_lable对象", description="机器人标签结果")

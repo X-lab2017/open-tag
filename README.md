@@ -5,7 +5,8 @@ open-tag 平台
 
 项目介绍
 -----------------------------------
-为了方便对业务数据集进行打标签流程
+1. 提供一个可Saas化的平台用来深度查询分析Github上面的业务数据,包括对actor和repo的相关分析，更深入的了解github的深层数据
+2. 利用Github上面的一些专业知识和专家经验形成标签系统，并且方便对业务数据集进行打标签流程
 
 技术支持
 -----------------------------------
@@ -144,10 +145,3 @@ open-tag 平台
 ![](https://oscimg.oschina.net/oscnet/d78218803a9e856a0aa82b45efc49849a0c.jpg)
 ![](https://oscimg.oschina.net/oscnet/0404054d9a12647ef6f82cf9cfb80a5ac02.jpg)
 ![](https://oscimg.oschina.net/oscnet/59c23b230f52384e588ee16309b44fa20de.jpg)
-
-
-## 捐赠 
-
-如果觉得还不错，请作者喝杯咖啡吧 ☺
-
-![](https://static.oschina.net/uploads/img/201903/08155608_0EFX.png)

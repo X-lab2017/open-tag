@@ -16,7 +16,7 @@
           </a-col>
           <a-col :span="24" >
             <a-form-model-item label="标签对象类别标签" :labelCol="labelCol" :wrapperCol="wrapperCol" prop="actorClass">
-              <j-dict-select-tag type="radio" v-model="model.actorClass" dictCode="bot_lable_class" placeholder="请选择标签对象类别标签" />
+              <j-multi-select-tag type="checkbox" v-model="model.actorClass" dictCode="bot_lable_class" placeholder="请选择标签对象类别标签" />
             </a-form-model-item>
           </a-col>
           <a-col :span="24" >

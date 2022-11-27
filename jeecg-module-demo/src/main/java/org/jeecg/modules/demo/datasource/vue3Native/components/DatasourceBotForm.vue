@@ -14,7 +14,7 @@
         </a-col>
         <a-col :span="24">
           <a-form-item label="标签对象类别标签" v-bind="validateInfos.actorClass">
-            <j-dict-select-tag type='radio' v-model:value="formData.actorClass" dictCode="bot_lable_class" placeholder="请选择标签对象类别标签" :disabled="disabled"/>
+	          <j-checkbox type="checkbox" v-model:value="formData.actorClass" dictCode="bot_lable_class" placeholder="请选择标签对象类别标签" :disabled="disabled"/>
           </a-form-item>
         </a-col>
         <a-col :span="24">
@@ -56,6 +56,7 @@
   import { JVxeTable } from '/@/components/jeecg/JVxeTable';
   import {datasourceBotLableColumns} from '../DatasourceBot.data';
   import JDictSelectTag from '/@/components/Form/src/jeecg/components/JDictSelectTag.vue';
+  import JCheckbox from "/@/components/Form/src/jeecg/components/JCheckbox.vue";
   import { Form } from 'ant-design-vue';
   const useForm = Form.useForm;
 
@@ -63,6 +64,7 @@
     name: "DatasourceBotForm",
     components:{
       JDictSelectTag,
+      JCheckbox,
       JVxeTable,
     },
     props:{

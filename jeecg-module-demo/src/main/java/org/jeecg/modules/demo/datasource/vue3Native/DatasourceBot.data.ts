@@ -49,7 +49,7 @@ export const formSchema: FormSchema[] = [
   {
     label: '标签对象类别标签',
     field: 'actorClass',
-    component: 'JDictSelectTag',
+    component: 'JSelectMultiple',
     componentProps:{
         dictCode:"bot_lable_class"
      },

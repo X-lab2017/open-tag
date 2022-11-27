@@ -130,9 +130,9 @@ spring:
         connectionProperties: druid.stat.mergeSql\=true;druid.stat.slowSqlMillis\=5000
       datasource:
         master:
-          url: jdbc:mysql://localhost:3306/open-tag?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+          url: jdbc:mysql://rm-uf6f53dpu5lac389m8o.mysql.rds.aliyuncs.com/open-tag?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
           username: root
-          password: root
+          password: kfcoding666!-
           driver-class-name: com.mysql.cj.jdbc.Driver
           # 多数据源配置
           #multi-datasource1:
@@ -143,7 +143,7 @@ spring:
   #redis 配置
   redis:
     database: 0
-    host: localhost
+    host: 106.14.35.229
     port: 6379
     password: ''
 #mybatis plus 设置
